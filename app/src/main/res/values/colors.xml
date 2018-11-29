@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_row_background_stat">#20B2AA</color>
+    <color name="bg_row_foreground">#FFFFFA</color>
+    <color name="bg_row_backroung_tracking">#606099</color>
+</resources>

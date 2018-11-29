@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SailDataManagerClient</string>
+    <string name="heading">HDG:</string>
+    <string name="lattitude">LAT:</string>
+    <string name="longitude">LON:</string>
+    <string name="tempreature">TMP:</string>
+    <string name="winddirection">AWD:</string>
+    <string name="windspeed">AWS:</string>
+    <string name="permission_rat">For GPS tracking this application needs for location permission, please accept</string>
+    <string name="permission_deny">For GPS tracking this application needs for location permission, please accept</string>
+    <string name="battery">BAT:</string>
+    <string name="speed">SPD:</string>
+    <string name="kts_sign">kts</string>
+    <string name="deg_sign">°</string>
+    <string name="celsius_sign">°C</string>
+    <string name="percent_sign">%</string>
+    <string name="main_toolbar_title">Available devices</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="start_routing">Start tracking</string>
+    <string name="view_stat">View statistics</string>
+    <string name="view_track">View trackings</string>
+    <string name="stop_routing">Stop tracking</string>
+    <string name="windspeed_true">TWS</string>
+    <string name="winddirection_true">TWD</string>
+    <string name="windangle_apparent">AWA</string>
+    <string name="view_tracking">View tracking</string>
+</resources>

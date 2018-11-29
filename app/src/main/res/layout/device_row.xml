@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#40E0D0"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/bg_row_background_stat">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:id="@+id/tv_view_stat"
+            android:layout_marginLeft="10dp"
+            android:text="@string/view_stat"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_view_stat"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_view_track"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:text="@string/view_track"
+            android:textColor="#fff"
+            android:textSize="13dp" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_row_foreground">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="connect"
+            android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/button"
+                android:id="@+id/name_tv"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:textColor="#444c5c"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/button"
+                android:layout_below="@+id/name_tv"
+                android:id="@+id/mac_tv"
+                android:layout_margin="10dp"
+                android:textSize="17sp"
+                android:textColor="#ce5a57"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>
